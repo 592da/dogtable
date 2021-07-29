@@ -1,0 +1,21 @@
+.content {
+  display: flex;
+}
+
+.gallery {
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.summary {
+  width: 15%;
+}
+
+.dog {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  cursor: pointer;
+  min-height: 200px;
+}
