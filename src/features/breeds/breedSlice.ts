@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { RootState } from "../../app/store";
-import { getAllBreeds } from "./dogsAPI";
+import { getAllBreeds } from "../../app/utils/dogsAPI";
 
 type Index = Record<string, { likes: number; count: number }>;
 

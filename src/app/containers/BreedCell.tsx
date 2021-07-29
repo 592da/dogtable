@@ -1,7 +1,7 @@
-import { Chip } from "@material-ui/core";
 import { useState, useEffect, useCallback } from "react";
+import { Chip } from "@material-ui/core";
 import { like, breedSelector } from "../../features/breeds/breedSlice";
-import { getRandomBreedImage } from "../../features/breeds/dogsAPI";
+import { getRandomBreedImage } from "../utils/dogsAPI";
 import { useAppDispatch, useAppSelector } from "../hooks";
 import styles from "../../styles.module.css";
 
